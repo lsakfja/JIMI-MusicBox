@@ -1,0 +1,67 @@
+/* 方案-清新绿 */
+.c-mode-fresh-green {
+    color: rgb(255, 255, 255);
+}
+
+/* 左侧 */
+.c-mode-fresh-green .left-navigation {
+    background-color: rgb(120, 180, 120);
+}
+
+/* 头部 */
+.c-mode-fresh-green .top-navigation {
+    background-color: rgb(100, 160, 100); 
+}
+
+/* 核心 */
+.c-mode-fresh-green .center-navigation {
+    background-color: rgb(100, 160, 100); 
+}
+
+/* 输入框 */
+.c-mode-fresh-green input{
+    color: rgb(255, 255, 255);
+}
+
+/* 滚动条配置 */
+.c-mode-fresh-green div {
+    scrollbar-width: thin; /* 设置滚动条宽度 */
+    scrollbar-color: #D6D4D9 #F0F0F0; /* 设置滚动条颜色 */
+}
+/* WebKit 浏览器的滚动条样式 */
+.c-mode-fresh-green div::-webkit-scrollbar {
+    width: 8px; /* 设置滚动条宽度 */
+}
+.c-mode-fresh-green div::-webkit-scrollbar-thumb {
+    background-color: rgb(86, 199, 101);; /* 设置滚动条-thumb颜色 */
+    border-radius: 8px; /* 设置滚动条-thumb圆角 */
+}
+.c-mode-fresh-green div::-webkit-scrollbar-track {
+    background-color: rgb(120, 180, 120); /* 设置滚动条-track颜色 */
+}
+.c-mode-fresh-green div::-webkit-scrollbar-thumb:hover {
+    background-color: #C3C8CF; /* 鼠标浮动时的滚动条-thumb颜色 */
+}
+/* 鼠标浮动时的滚动条样式 */
+.c-mode-fresh-green .audio-player-floater{
+    background-color: rgb(250, 250, 250);
+}
+
+
+/* 悬浮组件 */
+.c-mode-fresh-green .audio-player-floater{
+    background-color: rgb(86, 199, 101);
+}
+.c-mode-fresh-green .audio-list-box .pop-upper{
+    background-color: rgb(86, 199, 101);
+    box-shadow: 0 0 10px -2px white;
+}
+
+
+/* 次级组件设置 */
+/* 音乐列表 -> 时间模块 */
+.c-mode-fresh-green .music-list-header .header-content .time-span,
+.c-mode-fresh-green .music-list-header .header-content .weather-span{
+    background: linear-gradient(45deg, rgb(170, 232, 151), rgb(225, 227, 97));
+    box-shadow: 4px 4px 15px -2px rgb(198, 207, 74);
+}

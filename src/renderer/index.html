@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' 'unsafe-inline';
+        connect-src 'self' http://localhost:8080 https://jm-music-storage.oss-cn-hangzhou.aliyuncs.com https://web-wsyframework.oss-cn-beijing.aliyuncs.com;
+        img-src 'self' data: https://jm-music-storage.oss-cn-hangzhou.aliyuncs.com;
+        media-src 'self' file: https://jm-music-storage.oss-cn-hangzhou.aliyuncs.com https://web-wsyframework.oss-cn-beijing.aliyuncs.com;
+      ">
+    <!-- content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'" -->
+    <!-- content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' http://localhost:8080 https://jm-music-storage.oss-cn-hangzhou.aliyuncs.com; img-src 'self' data: https://jm-music-storage.oss-cn-hangzhou.aliyuncs.com" -->
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

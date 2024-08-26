@@ -1,0 +1,68 @@
+/* 方案-点雅黑 */
+.c-mode-elegant-black{
+    color: rgb(255, 255, 255);
+}
+
+/* 左侧 */
+.c-mode-elegant-black .left-navigation{
+    background-color: rgb(26, 26, 33);
+}
+/* 头部 */
+.c-mode-elegant-black .top-navigation{
+    background-color: rgb(19, 19, 26);
+}
+/* 核心 */
+.c-mode-elegant-black .center-navigation{
+    background-color: rgb(19, 19, 26);
+}
+
+/* 输入框 */
+.c-mode-elegant-black input{
+    color: rgb(255, 255, 255);
+}
+
+/* 滚动条配置 */
+.c-mode-elegant-black div {
+    scrollbar-width: thin; /* 设置滚动条宽度 */
+    scrollbar-color: #D6D4D9 #F0F0F0; /* 设置滚动条颜色 */
+}
+/* WebKit 浏览器的滚动条样式 */
+.c-mode-elegant-black div::-webkit-scrollbar {
+    width: 8px; /* 设置滚动条宽度 */
+}
+.c-mode-elegant-black div::-webkit-scrollbar-thumb {
+    background-color: rgb(45, 45, 56); /* 设置滚动条-thumb颜色 */
+    border-radius: 8px; /* 设置滚动条-thumb圆角 */
+}
+.c-mode-elegant-black div::-webkit-scrollbar-track {
+    background-color: rgb(26, 26, 33); /* 设置滚动条-track颜色 */
+}
+/* 鼠标浮动时的滚动条样式 */
+.c-mode-elegant-black div::-webkit-scrollbar-thumb:hover {
+    background-color: #C3C8CF; /* 鼠标浮动时的滚动条-thumb颜色 */
+}
+
+
+/* 鼠标浮动时的滚动条样式 */
+.c-mode-elegant-black .audio-player-floater{
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+/* 悬浮组件 */
+.c-mode-elegant-black .audio-player-floater{
+    background-color: rgb(45, 45, 56);
+}
+.c-mode-elegant-black .audio-list-box .pop-upper{
+    background-color: rgb(45, 45, 56);
+    box-shadow: 0 0 10px -2px white;
+}
+
+/* 次级组件设置 */
+/* 音乐列表 -> 时间模块 */
+.c-mode-elegant-black .music-list-header .header-content .time-span,
+.c-mode-elegant-black .music-list-header .header-content .weather-span{
+    background: linear-gradient(45deg, rgb(76, 76, 91), rgb(35, 35, 56));
+    box-shadow: inset 2px 2px 15px -3px rgb(255, 255, 255);
+}

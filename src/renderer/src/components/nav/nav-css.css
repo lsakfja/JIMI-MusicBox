@@ -1,0 +1,12 @@
+*{
+    --left-nav-width: 200px;
+    --top-nav--height: 60px;
+    
+    /* 底部播放悬浮窗 */
+    --bottom-floater-height: 80px; 
+}
+
+/* 对于所有主窗口最大子元素的共同设置 */
+.center-same{
+    height: calc(100% - var(--bottom-floater-height));
+}
